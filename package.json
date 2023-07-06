@@ -4,9 +4,12 @@
   "description": "This is a repository for a landing page example, using HTML and vanilla Javascript and an open API",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d src"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^3.0.0"
+  }
 }
